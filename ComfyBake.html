@@ -11,43 +11,39 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
-      <div class="jumbotron text-center">
-          <h1>Sandbox</h1>
+    <div class="jumbotron text-center" style="background-image: url('cover-photo.png'); background-repeat: no-repeat; background-position: center; background-size:contain; background-color: #FEFFF9;">
+      <h1>Sandbox</h1>
+      <button onclick="window.location.href='Sign-in.html'" type="button" class="btn btn-primary">Log Out</button>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <ul class="nav nav-pills flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="LandingProjects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="LandingInvestors.html">Investors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="LandingMyProject.html">My Project</a>
+              </li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h2>ComfyBake</h2>
+          <img class="rounded" style="width: 170px; height: auto;" src="comfybake_img.jpg">
+        </div>
+        <div class="col-sm-5" style="background-color: rgba(158, 253, 245, 0.575);">
+          <p style="padding-top: 15px; padding-left: 10px;">Short description in markdown about tech stacks, difficulty levels, and looking for</p>
+        </div>
+        <div class="col-sm-2">
+          <h3>Project Info</h3>
+          <p>Likes:</p>
+          <p>Author:</p>
+          <p>Date Created:</p>
+          <p>Users working on this project:</p>
+        </div>
       </div>
-      <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <ul class="nav nav-pills flex-column">
-                    <li class="nav-item">
-                      <a class="nav-link" href="LandingProjects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="LandingInvestors.html">Investors</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="LandingDiscussion.html">Discussion</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="LandingMyProject.html">My Project</a>
-                    </li>
-                </ul>
-            </div>
-
-        <div class="col-sm-3">
-            <h1 style="text-align: center;">ComfyBake</h1>
-            <img src="comfybake_img.jpg" style="width: 200px; 
-            height: auto;"></img>
-        </div>
-
-        <div class="col-sm-3">
-            <p style="text-align: center;">Short description in markdown about tech stacks, difficulty levels, and looking for</p>
-        </div>
-
-        <div>
-            <h3>Project Info</h3>
-            <p> 1233 likes</p>
-            <p>Joanne</p>
-            <p>Date Created: 2/10/2021</p>
-            <p>Users wor</p>
-
-        </div>
+    </div>
+  </body>

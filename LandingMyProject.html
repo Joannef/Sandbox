@@ -11,10 +11,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
-      <div class="jumbotron text-center">
+      <div class="jumbotron text-center" style="background-image: url('cover-photo.png'); background-repeat: no-repeat; background-position: center; background-size:contain; background-color: #FEFFF9;">
           <h1>Sandbox</h1>
+          <button onclick="window.location.href='Sign-in.html'" type="button" class="btn btn-primary">Log Out</button>
       </div>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3">
                 <ul class="nav nav-pills flex-column">
@@ -25,19 +26,22 @@
                       <a class="nav-link" href="LandingInvestors.html">Investors</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="LandingDiscussion.html">Discussion</a>
-                    </li>
-                    <li class="nav-item">
                       <a class="nav-link active" href="LandingMyProject.html">My Project</a>
                     </li>
                 </ul>
             </div>
 
             <div class="col-sm-3">
-              <h1>ComfyBake</h1>
-              <h3>Joanne</h3>
-              <h6>A marketplace platform for selling and buying home baked goodies</h6>
-              <button onclick="window.location.href='ComfyBake.html'">View</button>
+              <div class="card-header">
+                <h1>ComfyBake</h1>
+              </div>
+              <div class="card-body">
+                <p>A marketplace platform for selling and buying home baked goodies</p>
+              </div>
+              <div class="card-footer">
+                <h5>Steven and Joanne</h5>
+                <button onclick="window.location.href='ComfyBake.html'" class="view btn btn-primary">View</button>
+              </div>
             </div>
 
         </div>
