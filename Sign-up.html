@@ -14,7 +14,7 @@
           <h1>Sandbox</h1>
       </div>
       <div class="container">
-          <h3>Sign-in:</h3>
+          <h3>Sign-up:</h3>
           <form action="/action_page.php" class="was-validated">
             <div class="form-group">
                 <label for="user">Email: </label>
@@ -28,10 +28,14 @@
                 <div class="valid-feedback">Valid.</div>
                 <div class="invalid-feedback">Please fill out this field.</div>
             </div>
-            <button  onclick="window.location.href='Landing.html'" type="button" class="btn btn-primary">Login</button>
-          </form><br>
-          <p>Don't have an account?</p>
-          <button onclick="window.location.href='Sign-up.html'" type="button" class="btn btn-primary">Sign Up</button>
+            <div class="form-group">
+                <label for="pass">Confirm password: </label>
+                <input type="password" class="form-control" id="pass" placeholder="Enter password" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <button onclick="window.location.href='Sign-in.html'" type="button" class="btn btn-primary">Sign-up</button>
+          </form>
       </div>
   </body>
 </html>
